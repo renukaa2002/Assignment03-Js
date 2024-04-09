@@ -1,0 +1,189 @@
+/* style.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+    transition: color 0.5s;
+  }
+  
+  nav {
+    background-color: #b7adad;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.5s;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  ul, ol {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Specific page styles */
+  /* Styles for index.html */
+  button {
+    background-color: #007bff;
+    color: #130101;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styles for about.html */
+  p {
+    line-height: 1.5;
+  }
+  
+  /* Styles for feedback.html */
+  textarea {
+    width: 100%;
+    padding: 5px;
+  }
+  
+  /* Styles for newpage.html */
+  h3 {
+    color: #00ff22;
+  }
+  
+  /* Scrolling effect */
+  body.scrolling {
+    background-color: #f8f9fa;
+  }
+  
+  body.scrolling h1 {
+    color: #555;
+  }
+  
+  body.scrolling nav {
+    background-color: #555;
+  }
+  
+  body.scrolling nav a {
+    color: #ccc;
+  }
+  
+  body.scrolling button {
+    background-color: #555;
+  }
+  
+  body.scrolling button:hover {
+    background-color: #333;
+  }
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 179, 37);
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s;
+}
+
+h1 {
+    color: #fbf3f3;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.5s;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+ul, ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+.bike-image {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 10px;
+    color: #007bff;
+}
+
+.feature-image {
+    width: 500px; /* Updated width for smaller feature images */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+#feedbackInput {
+    width: 1200px;
+    height: 100px;
+}
+body {
+    background-image: url('images/aboutus.jpg'); /* Path to the image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    /* Other styles */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-family: Arial, sans-serif; /* Set font */
+    color: #fd2108;
+  }
